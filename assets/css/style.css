@@ -1,0 +1,62 @@
+/* NAVBAR */
+.glassmorphism-navbar {
+  background-color: transparent;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+}
+.border-bottom-color {
+  border-bottom: 1px solid red !important;
+}
+.glassmorphism-navbar .navbar-nav .nav-link {
+  color: white;
+  font-weight: bold;
+  background-color: transparent;
+  font-size: 1.25rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding: 0 1rem;
+}
+.glassmorphism-navbar .navbar-nav .nav-link:hover {
+  color: red;
+  background-color: transparent;
+  font-size: 1.25rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding: 0 1rem;
+}
+/* ICONS */
+.icons-container i {
+  box-shadow: 0 0 10px red;
+  padding: 0.5rem 0.75rem;
+  border-radius: 1rem;
+  margin: 0 0.5rem;
+  color: white;
+  font-size: 1.25rem;
+}
+
+/* STYLE THE VIDEO ELEMENT */
+.fullscreen-video video {
+  width: 100%; /* Adjust the width as needed */
+  height: 100vh; /* Maintain aspect ratio */
+  object-fit: cover;
+}
+/* CONTENT */
+.glassmorphism-content {
+  /* background-color: rgba(255, 255, 255, 0.09);
+  box-shadow: 0 0 10px red; */
+  height: 18rem;
+  font-size: 1.25rem;
+  line-height: 2.25rem;
+  overflow: hidden;
+}
+.glassmorphism-content h1 {
+  color: red;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+
+
